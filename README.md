@@ -8,9 +8,9 @@ This is a simple **public API** for HNG12 Stage 0. It provides basic information
 
 ## **Technology Stack**  
 
-- **Node.js** with **Express.js**  
-- TypeScript  
-- Hosted with Render  
+- **Node.js**
+- TypeScript
+- Hosted with Render
 
 ---
 
@@ -55,7 +55,7 @@ npm start
 
 ### **Base URL:**  
 ```
-<your-deployed-url>
+https://hng12-backend-stage0-fe93.onrender.com/
 ```
 
 ### **Endpoint:**
@@ -77,13 +77,13 @@ GET /
 ### **Example Usage**  
 Using **cURL**:  
 ```bash
-curl -X GET <your-deployed-url>
+curl -X GET https://hng12-backend-stage0-fe93.onrender.com/
 ```
 
 Using **JavaScript (fetch API)**:
 
 ```js
-fetch('<your-deployed-url>')
+fetch('https://hng12-backend-stage0-fe93.onrender.com/')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
@@ -93,7 +93,7 @@ fetch('<your-deployed-url>')
 
 ## **Deployment**
 
-This API is deployed at [URL](http)
+This API is deployed [here](https://hng12-backend-stage0-fe93.onrender.com/).
 
 ---
 
